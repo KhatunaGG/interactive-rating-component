@@ -1,0 +1,116 @@
+.main {
+  width: 100%;
+  background: linear-gradient(#232a34, #181e27);
+  padding: 24px 24px 32px 24px;
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.star {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #262e38;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+
+.title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 1.57;
+  color: #969fad;
+  width: 100%;
+}
+
+.rating {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.btn__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.submit__btn {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1.87px;
+  color: #fff;
+  background-color: #fc7614;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 109px;
+  border-radius: 22.5px;
+  transition: 0.3s;
+}
+
+.submit__btn:hover {
+  background-color: #ffffff;
+  color: #fc7614;
+}
+
+@media screen and (width > 375px) {
+  .main {
+    max-width: 412px;
+  }
+  .star {
+    height: 48px;
+    width: 48px;
+    margin-bottom: 30px;
+  }
+  .title {
+    font-size: 28px;
+    line-height: 1.26;
+  }
+
+  .text {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .btn__wrapper {
+    width: 100%;
+  }
+
+  .submit__btn {
+    font-size: 15px;
+    line-height: 1.26;
+    letter-spacing: 2px;
+    padding: 14px 0px;
+  }
+}

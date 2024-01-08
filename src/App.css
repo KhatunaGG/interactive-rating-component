@@ -1,0 +1,19 @@
+.App {
+
+  margin-left: 24px;
+  margin-right: 24px;
+
+  font-family: 'Overpass', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+/* .intro {
+  width: 87.2%;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+} */
