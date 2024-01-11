@@ -40,7 +40,11 @@ const Main = () => {
           })}
         </div>
 
-        <button onClick={getResult} className="submit__btn">
+        <button
+          onClick={getResult}
+          className="submit__btn"
+          disabled={rate > 0 ? false : true}
+        >
           submit
         </button>
       </div>

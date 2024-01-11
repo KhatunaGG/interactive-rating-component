@@ -84,6 +84,7 @@
   color: #fc7614;
 }
 
+
 @media screen and (width > 375px) {
   .main {
     max-width: 412px;
